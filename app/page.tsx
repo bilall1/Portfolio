@@ -16,7 +16,7 @@ export default function Home() {
 
   const handleDownload = () => {
     // URL of the hosted CV file
-    const cvUrl = 'https://drive.google.com/file/d/1mQYdjIxtFmChCrcrMX4X38VmWSs8GMeV/view?usp=sharing';
+    const cvUrl = 'https://drive.google.com/file/d/1RoX9_h9Nj_SDOa7NiESVuYdH98Dh_dED/view?usp=sharing';
     // Open the CV file in a new tab
     window.open(cvUrl, '_blank');
   };
