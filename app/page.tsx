@@ -31,7 +31,8 @@ export default function Home() {
         <span className='text-green-500 text-3xl font-semibold'>Hello, I'm Muhammad Bilal</span>
         <span className='text-5xl font-semibold pt-3'>Full Stack Developer |</span>
 
-        <p className='w-2/6 mt-[3%] text-sm text-gray-400'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam natus accusantium ut minima sit voluptas, suscipit qui, quia, voluptatem animi quos repudiandae magni tenetur labore.</p>
+        <p className='w-2/6 mt-[3%] text-sm text-gray-400'>Enthusiastic computer science expert with a robust foundation in web development. I've refined my expertise in
+both front-end and back-end domains.</p>
 
         <div className='flex mt-[2%]'>
         <button className='bg-green-500 text-sm px-4 font-semibold' onClick={handleClick}>
