@@ -8,6 +8,7 @@ import Aurora from "@/components/image/aurora.jpeg"
 import Zuntech from "@/components/image/zuntech.jpeg"
 import Image from 'next/image'
 
+
 export default function Home() {
   const handleClick = () => {
     window.location.href = 'mailto:muhammad.bilal0636@gmail.com';
@@ -32,7 +33,7 @@ export default function Home() {
         <span className='text-5xl font-semibold pt-3'>Full Stack Developer |</span>
 
         <p className='w-2/6 mt-[3%] text-sm text-gray-400'>Enthusiastic computer science expert with a robust foundation in web development. I've refined my expertise in
-both front-end and back-end domains.</p>
+        both front-end and back-end domains.</p>
 
         <div className='flex mt-[2%]'>
         <button className='bg-green-500 text-sm px-4 font-semibold' onClick={handleClick}>
@@ -86,12 +87,12 @@ both front-end and back-end domains.</p>
             </div>
 
         <div className='flex justify-between mt-[4%] gap-4'>
-        <WorkCard/>
-        <WorkCard/>
-        </div> 
+        <WorkCard imageurl='/Image/Cell.png' title='Cell Admin - SuperStore Management App' technologies='Technologies: NEXT JS, Tailwind CSS, NEST JS' access={false}/>
+        <WorkCard imageurl='/Image/twitter.png' title='Twitter Clone - Social App' technologies='Technologies: NEXT JS, Tailwind CSS, GOLANG, POSTGRESQL' access={false}/>     
+         </div> 
         <div className='flex justify-between mt-[4%] gap-4'>
-        <WorkCard/>
-        <WorkCard/>
+        <WorkCard imageurl='/Image/veteran.png' title='Veteran Meet - Social App' technologies='Technologies: MONGO DB, EXPRESS JS, REACT JS, NODE JS'  link='https://github.com/bilall1/Veteran-Meet-Mern-Stack' access={true}/>
+        <WorkCard imageurl='/Image/gym.png' title='Fitme - Workout App' technologies='Technologies: HTML, CSS, PHP' link='https://github.com/bilall1/Gym-Management-System' access={true}/>
         </div> 
         
       </div>    
@@ -152,6 +153,8 @@ both front-end and back-end domains.</p>
           <div className='flex flex-col'>
             <span className='font-semibold'>Social</span>
             <a href='https://www.linkedin.com/in/mbilal19/' className='text-xs text-gray-400 mt-3'>Linkedin</a>
+
+            <a href="https://www.fiverr.com/bilalch12"className='text-xs text-gray-400 mt-3'>Fiverr</a>
             
           </div>
 
