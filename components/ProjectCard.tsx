@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 
-export default function ProjectCard({image,title,description}:any) {
+export default function ProjectCard({image,title,description,link }:any) {
   return (
     <div className=" dark:text-white group">
     <div className="overflow-hidden">
@@ -16,7 +17,17 @@ export default function ProjectCard({image,title,description}:any) {
       <h1 className="line-clamp-1 text-2xl font-semibold">{title}</h1>
       <p className="line-clamp-4 text-gray-500 text-sm">{description}</p>
       <div className="flex justify-end pr-4 text-gray-500">
-        <FaArrowRight className="group-hover:text-primary group-hover:translate-x-2 duration-300" />
+
+        {link?
+        <Link href={link} >
+          <FaArrowRight className="group-hover:text-primary group-hover:translate-x-2 duration-300" />
+        </Link>
+        :
+        <p className='text-xs'>Code Hidden</p>
+        
+      }
+
+        
       </div>
     </div>
   </div>

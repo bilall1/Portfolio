@@ -33,7 +33,7 @@ export default function Navbar() {
     setShowMenu(!showMenu);
   };
   return (
-    <nav className='bg-white dark:bg-black dark:text-white duration-300'>
+    <nav className='bg-white text-black dark:bg-black dark:text-white duration-300'>
       <div className='container py-3'>
         <div className="flex justify-between items-center">
           
@@ -79,7 +79,7 @@ export default function Navbar() {
           </div>
          
         </div>
-        <MobileMenu showMenu={showMenu} MenuLinks={MenuLinks}/>
+        <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu} MenuLinks={MenuLinks}/>
       </div>
     </nav>
   )

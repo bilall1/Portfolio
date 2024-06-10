@@ -14,7 +14,7 @@ export default function HeroSection() {
   };
   return (
     <div>
-      <main className="bg-white dark:bg-gray-950 dark:text-white duration-300">
+      <main className="bg-white text-black  dark:bg-gray-950 dark:text-white duration-300">
         <div className="container flex pt-10 sm:pt-0">
           <div className="grid min-h-[620px] grid-cols-1 sm:grid-cols-2 gap-5 place-items-center">
             <div className="order-1 sm:order-2 relative">

@@ -14,6 +14,7 @@ const projectData = [
       "Technologies: NEXT JS, Tailwind CSS, NEST JS",
       author: "Someone",
       date: "April 22, 2022",
+      link:""
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ const projectData = [
         "Technologies: NEXT JS, Tailwind CSS, GOLANG, POSTGRESQL",
       author: "Someone",
       date: "April 22, 2022",
+       link:"https://github.com/bilall1/Twitter-Front-End"
     },
     {
       id: 3,
@@ -32,6 +34,7 @@ const projectData = [
         "Technologies: MONGO DB, EXPRESS JS, REACT JS, NODE JS",
       author: "Someone",
       date: "April 22, 2022",
+       link:"https://github.com/bilall1/Veteran-Meet-Mern-Stack"
     },
   ];
   
@@ -39,7 +42,7 @@ const projectData = [
 export default function Projects() {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14" id='projects'>
+      <div className="bg-gray-100 text-black dark:bg-gray-900 dark:text-white py-10 pb-14" id='projects'>
         <section data-aos="fade-up" className="container ">
           <h1 className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-semibold">
             My Projects
