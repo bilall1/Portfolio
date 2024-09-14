@@ -8,7 +8,7 @@ import { GoDownload } from "react-icons/go";
 export default function HeroSection() {
   const handleDownload = () => {
     // URL of the hosted CV file
-    const cvUrl = 'https://drive.google.com/file/d/1FEApHHy-izKXnRzmBNYMgs1l6VWcEjrL/view?usp=sharing';
+    const cvUrl = 'https://drive.google.com/drive/folders/1dERxVhtlXpKt3ZCTDHcORrpjKOtKCjA-?usp=drive_link';
     // Open the CV file in a new tab
     window.open(cvUrl, '_blank');
   };
