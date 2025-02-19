@@ -6,11 +6,11 @@ import { FaArrowRight } from 'react-icons/fa'
 export default function ProjectCard({image,title,description,link }:any) {
   return (
     <div className=" dark:text-white group">
-    <div className="overflow-hidden">
+    <div>
       <Image
         src={image}
         alt="No image"
-        className="mx-auto  w-full object-cover group-hover:scale-105 duration-300"
+        className="mx-auto w-full object-cover group-hover:scale-105 duration-300"
       />
     </div>
     <div className="space-y-2 p-4 ml-6 bg-gray-200 dark:bg-slate-950 -translate-y-8">
