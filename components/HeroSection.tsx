@@ -38,10 +38,10 @@ export default function HeroSection() {
                 and back-end domains.
               </p>
 
-              <button className="mt-2 flex bg-primary text-white hover:bg-primary/80 rounded-lg py-1 px-2 items-center" onClick={handleDownload}>
+              {/* <button className="mt-2 flex bg-primary text-white hover:bg-primary/80 rounded-lg py-1 px-2 items-center" onClick={handleDownload}>
                 <GoDownload className="text-2xl text-black" />
                 Download Cv
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

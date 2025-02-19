@@ -1,14 +1,14 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
-import Cell from "@/images/Cell.png"
-import Twitter from "@/images/twitter.png"
+import cell from "@/images/cell.png" 
+import stakater from "@/images/stakater.png"
 import Veteran from "@/images/veteran.png"
 import Link from 'next/link';
 
 const projectData = [
     {
       id: 1,
-      image: Cell,
+      image: cell,
       title: "Cell",
     description:
       "Technologies: NEXT JS, Tailwind CSS, NEST JS",
@@ -18,13 +18,13 @@ const projectData = [
     },
     {
       id: 2,
-      image: Twitter,
-      title: "Twitter Clone",
+      image: stakater,
+      title: "Stakater Cloud MVP",
       description:
-        "Technologies: NEXT JS, Tailwind CSS, GOLANG, POSTGRESQL",
+        "Technologies: React JS, CSS, GOLANG",
       author: "Someone",
       date: "April 22, 2022",
-       link:"https://github.com/bilall1/Twitter-Front-End"
+       link:""
     },
     {
       id: 3,
