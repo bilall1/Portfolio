@@ -44,7 +44,7 @@ export default function Footer() {
                     Muhammad.bilal0636@gmail.com{" "}
                   </span>
                   <span className="cursor-pointer hover:translate-x-1 duration-300 space-x-1 text-gray-400 ">
-                    Lahore, Pakistan{" "}
+                    Passau, Germany{" "}
                   </span>
                 </div>
               </div>
