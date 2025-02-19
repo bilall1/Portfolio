@@ -13,7 +13,7 @@ export default function ProjectCard({image,title,description,link }:any) {
         className="mx-auto  w-full object-cover group-hover:scale-105 duration-300"
       />
     </div>
-    <div className="space-y-2 p-4 ml-6 bg-gray-300 dark:bg-slate-950 -translate-y-8">
+    <div className="space-y-2 p-4 ml-6 bg-gray-200 dark:bg-slate-950 -translate-y-8">
       <h1 className="line-clamp-1 text-2xl font-semibold">{title}</h1>
       <p className="line-clamp-4 text-gray-500 text-sm">{description}</p>
       <div className="flex justify-end pr-4 text-gray-500">
