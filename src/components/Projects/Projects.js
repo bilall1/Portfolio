@@ -6,6 +6,7 @@ import containerImg from "../../Assets/container_platform.png";
 import aiBuddyImg from "../../Assets/ai_buddy.png";
 import cellImg from "../../Assets/cell.png";
 import stakaterImg from "../../Assets/stakater.png";
+import btradeImg from "../../Assets/btrade.png";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={btradeImg}
+              isBlog={false}
+              title="BTrade - AI Stock Screening Agent"
+              description="Agentic AI-powered stock market assistant using Google Gemini 2.5 Flash and Yahoo Finance. Features autonomous tool selection, real-time stock analysis, company fundamentals, smart screening, and natural language queries via GraphQL API."
+              ghLink="https://github.com/bilall1/btrade-ai-stock-agent"
+              demoLink="https://btrade-ai-stock-agent.vercel.app"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={containerImg}
