@@ -13,38 +13,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a Full-Stack Software Engineer passionate about building
-              scalable, high-performance web applications and integrating
-              AI-powered solutions into real-world products.
+              I'm a Full-Stack Software Engineer based in Germany, passionate
+              about building scalable web applications and integrating
+              AI-powered features into real products.
               <br />
               <br />
-              I'm proficient in
+              I work comfortably across the full stack,
               <i>
                 <b className="purple">
                   {" "}
                   JavaScript, TypeScript, Golang, and Python{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              on the backend, with
               <i>
-                <b className="purple">
-                  {" "}
-                  Full-Stack Web Applications, AI-Powered Features,{" "}
-                </b>
+                <b className="purple"> React and Next.js </b>
               </i>
-              and building RAG pipelines and intelligent chatbots.
+              on the frontend, and PostgreSQL and vector databases for data.
               <br />
               <br />
-              I love building projects with
-              <b className="purple"> Node.js</b>,{" "}
-              <b className="purple">Next.js</b>, and modern frameworks like{" "}
-              <i>
-                <b className="purple">React</b> and{" "}
-                <b className="purple">Express.js</b>.
-              </i>
+              I've shipped production SaaS platforms end-to-end, from system
+              architecture and API design to deployment and keeping things
+              running live.
+              <br />
+              <br />
+              Lately I've been focused on building intelligent features using
+              <b className="purple"> semantic search</b>,
+              <b className="purple"> embeddings</b>, and
+              <b className="purple"> large language model integrations</b>,
+              things that actually add value rather than just looking impressive
+              in a demo.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

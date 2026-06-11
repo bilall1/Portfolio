@@ -9,9 +9,12 @@ function Experience() {
       location: "Germany",
       period: "June 2025 — Present",
       points: [
-        "Developed and maintained full-stack web applications, improving user satisfaction by 25%.",
-        "Built scalable frontend and backend features with focus on performance and clean architecture.",
-        "Integrated AI-powered features, including OpenAI-based chatbots and RAG pipelines for context-aware responses.",
+        "Joined as an early engineer at a German software startup, taking end-to-end ownership across multiple client products, independently handling system architecture, full-stack development, deployment, and live production operations.",
+        "Architected and built Schul.software, a multi-tenant SaaS platform for German schools, with strict data isolation, per-school subdomain routing, and role-based access control across admin, teacher, parent, and student portals.",
+        "Designed a timetable engine with automated conflict resolution, teacher availability management, and substitute tracking, eliminating manual scheduling overhead for school administrators.",
+        "Architected a multi-vendor marketplace with Stripe Connect for automated vendor payouts, platform commission splits, and end-to-end order reconciliation across multiple vendors.",
+        "Built an AI-powered ticket generation tool using semantic search and Mistral AI embeddings, enabling development tickets to be auto-generated from natural language grounded in project history.",
+        "Configured CI/CD pipelines via GitHub Actions and managed DNS, SSL certificates, and subdomain routing via Cloudflare, ensuring zero-downtime availability for live clients.",
       ],
     },
     {
@@ -20,8 +23,21 @@ function Experience() {
       location: "Sweden",
       period: "July 2023 — April 2025",
       points: [
-        "Developed full-stack features by designing APIs, integrating databases, and building user-facing components to improve system efficiency.",
-        "Optimized end-to-end application performance to support 20% more concurrent users under peak load.",
+        "Led frontend engineering within an agile team building consumer-facing web platforms, contributing across the full stack on REST API integration, database queries, and end-to-end feature delivery from design to release.",
+        "Built accessible and responsive UI components in Next.js and Tailwind CSS for Cell Operative, implementing real-time bidirectional communication using WebSockets and authentication via NextAuth.js.",
+        "Improved Golang backend performance for scalability and reliability, contributing to REST API design and frontend-backend integration under beta traffic.",
+        "Improved application reliability and performance through database query optimization, caching strategies, and load testing.",
+      ],
+    },
+    {
+      company: "ZUNTECH",
+      role: "React Developer Intern",
+      location: "Pakistan",
+      period: "Feb 2023 — Jun 2023",
+      points: [
+        "Built and maintained responsive React.js UI components using Tailwind CSS, contributing to production-ready features across the development lifecycle.",
+        "Translated Figma design mockups for Al-Shifa Hospital into pixel-perfect, responsive React components, ensuring cross-browser compatibility and mobile responsiveness.",
+        "Collaborated with senior developers through code reviews, gaining hands-on experience with component architecture, state management, and agile workflows.",
       ],
     },
   ];
